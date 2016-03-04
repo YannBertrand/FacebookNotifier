@@ -1,3 +1,3 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-	alert('click');
+	chrome.tabs.create({ url: 'https://www.facebook.com/notifications' });
 });
